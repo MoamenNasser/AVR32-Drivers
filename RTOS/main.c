@@ -15,6 +15,7 @@
 
 void RLED(void)
 {
+	/*		TOGGLE LED AT PIN 0			*/
 	MDIO_VoidTogglePin(DIO_PORTA,DIO_PIN0);
 
 }
